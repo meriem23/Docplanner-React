@@ -1,0 +1,62 @@
+.navItems{
+    display: flex;
+    margin-top: 10px;
+}
+.docplannerNavbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index:1;
+    margin-bottom: 5px;
+  }
+  .docplannerNavbar a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .docplannerNavbar li {
+    margin : 0px 10px 0px 10px;
+  }
+  .hoveMenu {
+    position: relative;
+    display: inline-block;
+    margin-top: 50px;
+  }
+  .hovSubMenuItems {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .hovSubMenuItems li {
+    color: #ABABAB;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .hovSubMenuItems li:hover {
+    color:#00BFA5;
+    cursor: pointer;
+  }
+  .hovMenu:hover .hovSubMenuItems {
+    display: block;
+  }
+  .linkStyle {
+    text-decoration: none;
+    color:#ABABAB;
+  }
+  .linkStyle:hover{
+    color:#00BFA5;
+    text-decoration: none;
+  }
+  .logoNav{
+    height: 30px;
+    margin-top: 10px;
+  }

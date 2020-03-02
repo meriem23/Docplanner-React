@@ -1,0 +1,26 @@
+.docInfo{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.titl{
+    color:#ABABAB;
+    cursor: pointer;
+}
+.titl:hover{
+    color: #00CCB1;
+
+}
+.doctLogo{
+    height: 20px;
+    margin-right: 2px;
+}
+.docTitle{
+    color: #00CCB1; 
+    margin-right: 2px;
+    font-weight: 700;
+}
+.tiltLogo{
+    display: flex;
+    flex-wrap: wrap;
+}
